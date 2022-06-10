@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<title> Jogo da Forca </title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">	
+</head>
+
+<body>
+	<header>
+		<h1 class="logoAlura">
+			<img src="imagens/logo-alura.png" alt="Logo A de Alura">
+		</h1>
+	</header>
+
+<main>
+	<section class = "botoes">
+		<button id="botaoIniciar">Começar a Jogar </button>
+		<button id="botaoIncremento">Adicionar Palavra</button>
+	</section>
+		
+	<section class="tabuleiro">
+		<canvas id="tela" width="1200" height="400" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$"></canvas>
+		<div class="botoesJogo">
+			<button id='novoJogo' class="estiloBotaoUm">Novo Jogo</button> 
+			<button id='desistir' class="estiloBotaoDois">Desistir</button>
+		</div>
+	</section>
+		
+	<div class="inputPagina">
+		<textarea placeholder="Digite uma palavra ou frase" id="inputPalavra" class="textArea"></textarea>
+		<section class="textoBotoes">
+			<h4 id="alertaMaxLetras"><img src="imagens/exclamacao.png" id="exclamacao"> Máx. 8 caracteres</h4>
+			<div class="botoesIncremento">
+				<button class="estiloBotaoUm" id="botaoSalvar">Salvar e começar</button>
+				<input type="button" class="estiloBotaoDois" id="botaoCancelar" value="Cancelar">
+			</div>
+		</section>
+	</div>
+
+	<footer>
+		<h6>© 2022 - Challenge Alura <br> Developed by Perilha.</h6>
+	</footer>
+
+</body>
+
+<script src="js/script.js"></script>
+<script src="js/canvas.js"></script>
+<script src="js/botoes.js"></script>

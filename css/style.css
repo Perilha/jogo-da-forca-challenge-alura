@@ -1,0 +1,110 @@
+body {
+	background: #F3F5FC;
+	font-family: "Inter", sans-serif;;
+}
+
+.logoAlura {
+	position: relative;
+	padding: 50px 0px 0px 65px;
+}
+.botoes {
+	text-align: center;
+	width: 350px;
+	margin: auto;
+	margin-top: 150px;
+}
+
+#botaoIniciar {
+	box-sizing: border-box;
+	padding: 30px 80px;
+	background: #0A3871;
+	border: none;
+	border-radius: 24px;
+	font-family: "Inter", sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin-bottom: 20px;
+	line-height: 15px;
+}
+
+#botaoIncremento{
+	background: none;
+	padding: 30px 80px;
+	border-color: #0A3871;
+	border-radius: 24px;
+	font-family: "Inter", sans-serif;
+	font-weight: lighter;
+	font-size: 12px;
+	color: #0A3871;
+	cursor: pointer;
+}
+.tabuleiro {
+	display: none;
+	
+}
+
+.botoesJogo {
+	text-align: center;
+}
+
+.textArea{
+	position: flex;
+	border: none;
+	font-family: "Inter", sans-serif;
+	color: #0A3871;
+	background: #F3F5FC;
+	resize: none;
+	outline: none;
+}
+
+.inputPagina{
+	display: none;
+}
+
+#inputPalavra{
+	width: 400px;
+	font-size: 30px;
+	margin: 150px 0px 0px 250px;
+}
+
+#inputPalavra::placeholder {
+	color: #0A3871;
+}
+
+.estiloBotaoUm{	
+	padding: 15px 90px;
+	background: #0A3871 ;
+	border: none;
+	border-radius: 10px;
+	font-family: "Inter", sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.estiloBotaoDois{
+	background: none;
+	padding: 15px 90px;
+	border-color: #0A3871;
+	border-radius: 10px;
+	font-family: "Inter", sans-serif;
+	font-size: 12px;
+	color: #0A3871;
+	cursor: pointer;
+}
+
+.textoBotoes {
+	margin-top: 125px;
+	margin-left: 420px;
+}
+
+#alertaMaxLetras{
+	font-size: 14px;
+}
+
+footer {
+	text-align: center;
+	font-size: 11px;
+	margin-top: 180px;
+}
